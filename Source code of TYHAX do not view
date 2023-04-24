@@ -48,7 +48,7 @@ Tab:AddButton({
 
 	Callback = function()
 
-    loadstring(game:HttpGet("https://pastebin.com/raw/QgcNfird"))()
+    loadstring(game:HttpGet("https://pastebin.com/raw/TH7knfF2"))()
 
       		print("Apocalypse tycoon script Executed")
 
