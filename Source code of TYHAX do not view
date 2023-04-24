@@ -1,0 +1,59 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "TyHax (WIP! DO NOT SKID)", HidePremium = false, SaveConfig = true, ConfigFolder = "Saved Configs", IntroText = "TyHax booting up!"})
+
+OrionLib:MakeNotification({
+
+	Name = "Important!",	Content = "This is a WIP Script, Do NOT skid this or I will subject you to copyright.",
+
+	Image = "rbxassetid://4483345998",
+
+	Time = 5
+
+})
+
+local Tab = Window:MakeTab({
+
+	Name = "Infinite Cash Tycoon Scripts 💸",
+
+	Icon = "rbxassetid://4483345998",
+
+	PremiumOnly = false
+
+})
+
+local Section = Tab:AddSection({
+
+	Name = "Infinite Money Buttons"
+
+})
+
+Tab:AddButton({
+
+	Name = "SkyDive off a tower tycoon script (get money for this script to work)",
+
+	Callback = function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/QgcNfird"))()
+
+      		print("SkyDive off a Tower script Executed")
+
+  	end    
+
+})
+
+Tab:AddButton({
+
+	Name = "Apocalypse tycoon script",
+
+	Callback = function()
+
+    loadstring(game:HttpGet("https://pastebin.com/raw/QgcNfird"))()
+
+      		print("Apocalypse tycoon script Executed")
+
+  	end    
+
+    })
+
+OrionLib:Init()
