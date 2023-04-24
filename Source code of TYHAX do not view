@@ -55,5 +55,30 @@ Tab:AddButton({
   	end    
 
     })
+    
+    Tab:AddButton({
+
+	Name = "Faction Defense tycoon Script",
+
+	Callback = function()
+local Remote = game.ReplicatedStorage.PlayerMoneyUpdate['YourName']
+
+ 
+
+local Arguments = {
+
+        [1] = 9999999999999999
+
+}
+
+ 
+
+Remote:FireServer(unpack(Arguments))
+
+      		print("Faction Defense Tycoon INF Money Injected")
+
+  	end    
+
+})
 
 OrionLib:Init()
