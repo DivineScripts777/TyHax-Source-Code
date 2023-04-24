@@ -14,7 +14,7 @@ OrionLib:MakeNotification({
 
 local Tab = Window:MakeTab({
 
-	Name = "Infinite Cash Tycoon Scripts 💸",
+	Name = "Main Scripts",
 
 	Icon = "rbxassetid://4483345998",
 
@@ -80,4 +80,18 @@ Remote:FireServer(unpack(Arguments))
 
 })
 
+local Section = Tab:AddSection({
+
+	Name = "Tycoon GUI!"})
+
+Tab:AddButton({
+
+	Name = "Button!",	
+        Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0superhero", true))()
+      		print("button pressed")
+
+  	end    
+
+})
 OrionLib:Init()
