@@ -24,7 +24,7 @@ local Tab = Window:MakeTab({
 
 local Section = Tab:AddSection({
 
-	Name = "Infinite Money Buttons"
+	Name = "Infinite Money Scripts 💸"
 
 })
 
@@ -82,11 +82,11 @@ Remote:FireServer(unpack(Arguments))
 
 local Section = Tab:AddSection({
 
-	Name = "Tycoon GUI!"})
+	Name = "Tycoon GUIs"})
 
 Tab:AddButton({
 
-	Name = "Button!",	
+	Name = "Super Hero Tycoon",	
         Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0superhero", true))()
       		print("button pressed")
