@@ -58,10 +58,9 @@ Tab:AddButton({
     
     Tab:AddButton({
 
-	Name = "Faction Defense tycoon Script",
+	Name = "Faction Defense tycoon (Not Available)",
 
 	Callback = function()
-local Remote = game.ReplicatedStorage.PlayerMoneyUpdate['YourName']
 
  
 
